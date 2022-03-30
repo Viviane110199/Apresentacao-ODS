@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&family=Varela+Round&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    font-size: 100%;
+}
+
+.cabecalho {
+    display: flex;
+    background: rgb(119, 34, 67);
+    align-items: center;
+    justify-content: center;
+    gap: 45px;
+    padding: 24px;
+}
+
+.cabecalho-imagem {
+    height: 100px;
+    border-radius: 60px;
+}
+
+.cabecalho-titulo {
+    font-family: 'Shadows Into Light', cursive;
+    color: whitesmoke;
+    font-weight: 20;
+    font-size: 30px;
+}
+
+.sessao-principal {
+    font-family: 'Varela Round', sans-serif;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 20px;
+    padding: 30px;
+}
+
+a:visited { 
+    color:  #5f0d31 ; 
+}
+
+.ultima-sessao {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.foto {
+    height: 430px;
+}
+
+.imagem{
+    height: 160px;
+}
+
+.denuncia {
+    height: 100px;
+}
+
+.rodape {
+    text-align: center;
+    font-weight: 40;
+    font-size: 10px;
+    padding-top: 36px;
+}
+

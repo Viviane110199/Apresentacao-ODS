@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Shadows+Into+Light&display=swap');   
+
+* { 
+    margin: 0;  
+    padding: 0;                     
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    font-size: 100%; 
+}
+
+.cabecalho {
+    display: flex; 
+    background: rgb(119, 34, 67); 
+    align-items: center; 
+    justify-content: center; 
+    gap: 45px; 
+    padding: 24px; 
+}
+
+.cabecalho-imagem {
+    height: 100px; 
+    border-radius: 60px; 
+}
+
+.cabecalho-titulo {
+    font-family: 'Shadows Into Light', cursive; 
+    color: whitesmoke; 
+    font-weight: 20; 
+    font-size: 30px; 
+}
+
+main {
+    display: flex; 
+    flex-direction: column; 
+    text-align: center; 
+    gap: 14px; 
+}
+
+.conteudo-objetivo {
+    font-family: 'Shadows Into Light', cursive; 
+    color: #5f0d31; 
+    text-align: center;
+    font-size: 25px; 
+    font-weight: 14; 
+    margin-top: 30px; 
+    margin-bottom: 10px; 
+}
+
+.primeiro-botao {
+    font-family: 'Caveat', cursive; 
+    background-color: rgb(119, 34, 67);
+    font-size: 30px;
+    height: 60px; 
+    border: none; 
+    cursor: pointer; 
+}
+
+.primeira-pergunta {
+    color: white; 
+    margin-left: 30px; 
+}
+
+.primeira-resposta {
+    opacity: 0; 
+    margin-right: 30px; 
+}
+
+button:hover .primeira-resposta {
+    opacity: 1; 
+    color: white; 
+}
+
+.segundo-botao {
+    font-family: 'Caveat', cursive; 
+    background-color: rgb(119, 34, 67); 
+    margin-top: 3px;
+    font-size: 30px; 
+    height: 60px; 
+    border: none; 
+    cursor: pointer; 
+}
+
+.segunda-pergunta {
+    color: white; 
+    margin-left: 10px; 
+}
+
+.segunda-resposta {
+    opacity: 0;
+    margin-left: 15px; 
+    margin-right: 40px; 
+}
+
+button:hover .segunda-resposta {
+    opacity: 1; 
+    color: white; 
+}
+
+.ultima-sessao {
+    display: flex; 
+    justify-content: center; 
+    font-size: 50px; 
+}
+
+.boneca {
+    height: 280px; 
+    margin-left: 140px; 
+}
+
+.bolinha {
+    font-size: 80px; 
+    border: none; 
+    margin-top: 170px; 
+    margin-left: 80px; 
+}
+
+a:visited { 
+    color:  #5f0d31 ;
+}
+
+.rodape {
+    text-align: center; 
+    font-weight: 40;
+    font-size: 10px; 
+}
+
+
+
+
+
+
+
+
